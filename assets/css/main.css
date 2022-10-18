@@ -1,0 +1,37 @@
+@font-face {
+  font-family: "overpass";
+  font-weight: 400;
+  src: url("../fonts/Overpass.woff2") format("woff2"), url("../fonts/Overpass.woff") format("woff");
+}
+.c-nav {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin-top: 45px;
+  font-family: "Overpass";
+}
+
+.c-nav__link {
+  color: #1a1a1a;
+  text-decoration: none;
+  margin: 0 53px;
+  width: 67px;
+  height: 32px;
+  font-family: "Overpass";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 149%;
+}
+
+.c-nav__link-btn {
+  width: 67px;
+  height: 32px;
+  text-decoration: none;
+  padding: 4px 9px;
+  gap: 10px;
+  background-color: rgb(63, 81, 181);
+  color: #fff !important;
+}
+
+/*# sourceMappingURL=main.css.map */

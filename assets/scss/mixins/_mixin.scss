@@ -1,7 +1,7 @@
-@mixin buttonStyle {
+@mixin c-nav--btn {
   color: #1a1a1a;
   text-decoration: none;
-  margin: 0 60px;
+  margin: 0 53px;
   width: 67px;
   height: 32px;
   font-family: "Overpass";
@@ -10,16 +10,18 @@
   font-size: 16px;
   line-height: 149%;
 }
-@mixin listStyle {
+@mixin c-nac--list {
   display: flex;
   justify-content: center;
   list-style: none;
-  padding-top: 50px;
+  margin-top: 45px;
 }
-@mixin homeButton {
+@mixin c-nav--homebtn {
     width: 67px;
     height: 32px;
-    padding: 6px 14px;
-    background-color: blue;
+    text-decoration: none;
+    padding: 4px 9px;
+    gap: 10px;
+    background-color: rgba(63, 81, 181, 1);
     color: #fff !important;
 }
