@@ -1,0 +1,25 @@
+@mixin buttonStyle {
+  color: #1a1a1a;
+  text-decoration: none;
+  margin: 0 60px;
+  width: 67px;
+  height: 32px;
+  font-family: "Overpass";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 149%;
+}
+@mixin listStyle {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding-top: 50px;
+}
+@mixin homeButton {
+    width: 67px;
+    height: 32px;
+    padding: 6px 14px;
+    background-color: blue;
+    color: #fff !important;
+}
