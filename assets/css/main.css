@@ -3,7 +3,7 @@
   font-weight: 400;
   src: url("../fonts/Overpass.woff2") format("woff2"), url("../fonts/Overpass.woff") format("woff");
 }
-.c-nav {
+.c-header-nav {
   display: flex;
   justify-content: center;
   list-style: none;
@@ -11,7 +11,7 @@
   font-family: "Overpass";
 }
 
-.c-nav__link {
+.c-header-nav__link {
   color: #1a1a1a;
   text-decoration: none;
   margin: 0 53px;
@@ -24,7 +24,7 @@
   line-height: 149%;
 }
 
-.c-nav__link-btn {
+.c-header-nav__link-btn {
   width: 67px;
   height: 32px;
   text-decoration: none;

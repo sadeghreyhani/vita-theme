@@ -2,13 +2,13 @@
 @import "settings/settings";
 // mixins
 @import "mixins/mixin";
-.c-nav {
-  @include c-nac--list;
+.c-header-nav {
+  @include c-header-nav--list;
   font-family: "Overpass";
 }
-.c-nav__link {
-  @include c-nav--btn;
+.c-header-nav__link {
+  @include c-header-nav--btn;
 }
-.c-nav__link-btn {
-  @include c-nav--homebtn;
+.c-header-nav__link-btn {
+  @include c-header-nav--homebtn;
 }

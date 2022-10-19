@@ -1,4 +1,4 @@
-@mixin c-nav--btn {
+@mixin c-header-nav--btn {
   color: #1a1a1a;
   text-decoration: none;
   margin: 0 53px;
@@ -10,18 +10,18 @@
   font-size: 16px;
   line-height: 149%;
 }
-@mixin c-nac--list {
+@mixin c-header-nav--list {
   display: flex;
   justify-content: center;
   list-style: none;
   margin-top: 45px;
 }
-@mixin c-nav--homebtn {
-    width: 67px;
-    height: 32px;
-    text-decoration: none;
-    padding: 4px 9px;
-    gap: 10px;
-    background-color: rgba(63, 81, 181, 1);
-    color: #fff !important;
+@mixin c-header-nav--homebtn {
+  width: 67px;
+  height: 32px;
+  text-decoration: none;
+  padding: 4px 9px;
+  gap: 10px;
+  background-color: rgba(63, 81, 181, 1);
+  color: #fff !important;
 }
