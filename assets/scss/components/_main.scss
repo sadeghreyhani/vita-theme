@@ -1,0 +1,34 @@
+.c-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+  }
+ .c-main--img {
+    width: 106px;
+    height: 106px;
+    border-radius: 50%;
+  }
+.c-main__title {
+    font-family: "Overpass";
+    color: #1a1a1a;
+    font-size: 25px;
+    margin-top: 28px;
+  }
+.c-main__description {
+    font-family: monospace;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 27px;
+    color: #555555;
+  }
+.c-main--social {
+    margin-top: 25px;
+  }
+.c-main--social-img {
+    margin: 0 25px;
+    width: 18px;
+    height: 18px;
+    color: #1a1a1a;
+  }

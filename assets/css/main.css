@@ -3,14 +3,6 @@
   font-weight: 400;
   src: url("../fonts/Overpass.woff2") format("woff2"), url("../fonts/Overpass.woff") format("woff");
 }
-.c-header-nav {
-  display: flex;
-  justify-content: center;
-  list-style: none;
-  margin-top: 45px;
-  font-family: "Overpass";
-}
-
 .c-header-nav__link {
   color: #1a1a1a;
   text-decoration: none;
@@ -24,6 +16,13 @@
   line-height: 149%;
 }
 
+.c-header-nav {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin-top: 45px;
+}
+
 .c-header-nav__link-btn {
   width: 67px;
   height: 32px;
@@ -32,6 +31,74 @@
   gap: 10px;
   background-color: rgb(63, 81, 181);
   color: #fff !important;
+}
+
+.c-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.c-main--img {
+  width: 106px;
+  height: 106px;
+  border-radius: 50%;
+}
+
+.c-main__title {
+  font-family: "Overpass";
+  color: #1a1a1a;
+  font-size: 25px;
+  margin-top: 28px;
+}
+
+.c-main__description {
+  font-family: monospace;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 27px;
+  color: #555555;
+}
+
+.c-main--social {
+  margin-top: 25px;
+}
+
+.c-main--social-img {
+  margin: 0 25px;
+  width: 18px;
+  height: 18px;
+  color: #1a1a1a;
+}
+
+.c-footer-line {
+  border: 1px solid #f0f0f0;
+  width: 50%;
+  margin: 65px auto;
+}
+
+.c-footer-ellipse {
+  box-sizing: border-box;
+  width: 8px;
+  height: 8px;
+  margin: auto;
+  border: 2px solid #f0f0f0;
+  border-radius: 50%;
+  position: relative;
+  bottom: 70px;
+}
+
+.c-footer-maker-name {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #1a1a1a;
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,14 +1,5 @@
 // settings
 @import "settings/settings";
-// mixins
-@import "mixins/mixin";
-.c-header-nav {
-  @include c-header-nav--list;
-  font-family: "Overpass";
-}
-.c-header-nav__link {
-  @include c-header-nav--btn;
-}
-.c-header-nav__link-btn {
-  @include c-header-nav--homebtn;
-}
+
+// components
+@import "components/components";
