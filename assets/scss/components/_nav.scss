@@ -2,28 +2,26 @@
 .c-nav {
   display: flex;
   justify-content: center;
-  list-style: none;
-  margin-top: 45px;
+  margin-top: 3rem;
+  @include mq(1em , tablet) {
+    display: none;
+    
+  }
+
   &__link {
     color: #1a1a1a;
-    text-decoration: none;
-    margin: 0 53px;
-    width: 67px;
-    height: 32px;
-    font-family: "Overpass";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
+    margin: 0 3.5rem;
+    width: 4rem;
+    height: 2rem;
+    font-size: 1rem;
     line-height: 149%;
+    
   }
   &__link--btn {
-    width: 67px;
-    height: 32px;
-    text-decoration: none;
     padding: 4px 9px;
-    font-family: "Overpass";
     gap: 10px;
     background-color: rgba(63, 81, 181, 1);
     color: #fff !important;
   }
 }
+
