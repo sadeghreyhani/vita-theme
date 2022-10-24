@@ -19,6 +19,10 @@
   "devDependencies": {
     "gulp": "^4.0.2",
     "gulp-sass": "^5.1.0",
+    "gulp-watch-sass": "^1.4.1",
     "sass": "^1.55.0"
+  },
+  "dependencies": {
+    "watch": "^1.0.2"
   }
 }
