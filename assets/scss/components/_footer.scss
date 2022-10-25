@@ -1,6 +1,6 @@
 .c-footer__line {
   border: 1px solid #f0f0f0;
-  width: 50%;
+  width: 65%;
   margin: 4rem auto;
 }
 .c-footer__ellipse {
@@ -20,5 +20,5 @@
   font-size: 0.8rem;
   line-height: 1rem;
   letter-spacing: 0.03em;
-  color: #1a1a1a;
+  color: $secondary-color;
 }
