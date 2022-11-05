@@ -9,3 +9,13 @@ x[0].addEventListener("click", function () {
 z[0].addEventListener("click", function () {
   y[0].style.transform = "translateY(-100%)";
 });
+
+
+// $(document).ready(function(){
+//   $(".c-nav__mobile--close").click(function(){
+//     $(".c-nav__item").fadeOut();
+//   });
+//   $(".c-nav__mobile--open").click(function(){
+//     $(".c-nav__item").fadeIn();
+//   });
+// });

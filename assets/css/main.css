@@ -3,6 +3,15 @@
   font-weight: 400;
   src: url("../fonts/Overpass.woff2") format("woff2"), url("../fonts/Overpass.woff") format("woff");
 }
+.fa-brands {
+  color: #000000;
+  cursor: pointer;
+}
+
+.fa-brands:hover {
+  color: rgb(63, 81, 181);
+}
+
 body {
   padding: 0;
   margin: 0;
@@ -120,10 +129,8 @@ ul {
   justify-content: center;
   margin-top: 1.5rem;
 }
-.c-social__img {
-  margin: 0 1.5rem;
-  width: 1rem;
-  height: 1rem;
+.c-social__icon {
+  padding-right: 20px;
 }
 
 .c-img__user {
@@ -158,5 +165,3 @@ ul {
   letter-spacing: 0.03em;
   color: #555555;
 }
-
-/*# sourceMappingURL=main.css.map */
